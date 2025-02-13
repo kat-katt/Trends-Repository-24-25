@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Kath Resume</title>
+		<style>
+			html,body {
+				height: 100%;
+			}
+			body {
+				font-family: 'Arial', sans-serif;
+				background-color: #f0f0eb;
+				margin: 0;
+				padding: 0;
+				height: 100vh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.container {
+				display: flex;
+				width: 900px;
+				height: 100vh; 
+				background: #fff;
+				border-radius: 10px;
+				box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+				overflow: hidden;
+			}
+			.left-side {
+				background: #b8a995;
+				color: white;
+				width: 35%;
+				padding: 20px;
+				text-align: center;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
+			.left-side img {
+				width: 200px;
+				height: 200px;
+				border-radius: 50%;
+				border: 3px solid white;
+				margin: 0 auto 10px;
+			}
+			.left-side h2 {
+				border-bottom: 2px solid white;
+				padding-bottom: 5px;
+			}
+			.right-side {
+				width: 65%;
+				padding: 20px;
+				overflow-y: auto;
+			}
+			h1 {
+				color: #5a4a3c;
+				margin-bottom: 10px;
+			}
+			h2 {
+				color: #5a4a3c;
+				border-bottom: 2px solid #b8a995;
+				padding-bottom: 5px;
+			}
+			hr {
+				border: none;
+				border-top: 1px solid #b8a995;
+				margin: 10px 0;
+			}
+			table {
+				width: 100%;
+				border-collapse: collapse;
+				margin-top: 10px;
+			}
+			th, td {
+				border: 1px solid #5a4a3c;
+				padding: 8px;
+				text-align: left;
+			}
+			ul {
+				list-style-type: square;
+				color: white;
+				text-align: left;
+				padding-left: 20px;
+			}
+			ul li {
+				padding: 5px;
+			}
+			ol {
+				color: #5a4a3c;
+			}		
+    
+			@media print {
+				body {
+					height: 100%;
+				}
+				.container {
+					width: 100%;
+					height: 100%;
+					box-shadow: none;
+					border-radius: 0;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<page size="A4"></page>
+		<div class="container">
+			<div class="left-side">
+				<img src="https://assets.onecompiler.app/438huctbt/438hubyc5/2024-2-ITEC303-N1Am_ClederaKathleen.JPG" alt="ME">
+				<h1>Kathleen Gianna M. CLEDERA</h1>
+				<p><b>Address:</b> Sto. Tomas, Magarao</p>
+				<p><b>Contact:</b> kgcledera@gbox.adnu.edu.ph | 09924664850</p>
+				<hr>
+				<h2>Skills</h2>
+				<ul>
+					<li>Self-motivated and proactive</li>
+					<li>Excellent communication skills</li>
+					<li>Strong organizational and time management</li>
+					<li>Ability to work independently and as part of a team</li>
+					<li>Proficient in Microsoft Office</li>
+					<li>Programming (C++, Java)</li>
+					<li>UI/UX design (Figma)</li>
+				</ul>
+			</div>
+			<div class="right-side">
+				<h2>Personal Statement</h2>
+				<p><i>A dedicated and motivated individual with a strong passion for learning and self-improvement.</i></p>
+				<hr>
+				<h2>Educational History</h2>
+				<ol>
+					<li>Bachelor of Science in Computer Science - Ateneo de Naga University (2023-PRESENT)</li>
+					<li>Technical Vocational Livelihood - Camarines Sur National High School (2021-2023)</li>
+					<li>Science, Technology, and Engineering - Camarines Sur National High School (2017-2021)</li>
+					<li>Elementary - Blessed Lights International Christian Academy (2012-2017)</li>
+					<li>Primary School - Universidad de Santa Isabel (2008-2012)</li>
+				</ol>
+				<hr>
+				<h2>Work Experience</h2>
+				<table>
+					<tr>
+						<th>Job Title</th>
+						<th>Company</th>
+						<th>Year</th>
+					</tr>
+					<tr>
+						<td>Service Crew</td>
+						<td>McDonald's Naga Roxas Branch</td>
+						<td>2024</td>
+					</tr>
+					<tr>
+						<td>Work Immersion Student</td>
+						<td>Shakey's Robinson's Naga</td>
+						<td>2023</td>
+					</tr>
+				</table>
+				<hr>
+				<h2>Character References</h2>
+				<table>
+					<tr>
+						<th>Name</th>
+						<th>Contact</th>
+						<th>Position</th>
+					</tr>
+					<tr>
+						<td>Mrs. Lilibeth Arquillo</td>
+						<td>09204541371</td>
+						<td>Former Supervisor</td>
+					</tr>
+					<tr>
+						<td>Mrs. Gemma Oropesa</td>
+						<td>09168632480</td>
+						<td>Former Professor</td>
+					</tr>
+					<tr>
+						<td>Mr. Allen Roi Molaer</td>
+						<td>09271723871</td>
+						<td>Former Colleague</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
